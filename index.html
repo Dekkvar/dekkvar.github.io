@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>Dekkvar's Portfolio</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
   <body>
-    <h1>Hola</h1>
+    <header>
+      <section id="navbar">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
+    </header>
+    <section id="welcome-section">
+      <h1>Hello I'm Dekkvar</h1>
+      <p>Welcome to my portfolio!</p>
+    </section>
+    <main id="projects">
+      <h2>You can see some of my projects</h2>
+      <div id="projects-container">
+        <a class="project-tile" href="https://codepen.io/Dekkvar/pen/rNGWzOp" target="_blank">
+          <img src="https://shots.codepen.io/username/pen/xxLvGpR-512.jpg" alt="project image">
+          <p>Tribute Page</p>
+        </a>
+        <a class="project-tile" href="https://codepen.io/Dekkvar/pen/MWEbxVy" target="_blank">
+          <img src="https://shots.codepen.io/username/pen/MWEbxVy-512.jpg" alt="project image">
+          <p>OCR Survey Form</p>
+        </a>
+        <a class="project-tile" href="https://codepen.io/Dekkvar/pen/rNGWzOp" target="_blank">
+          <img src="https://shots.codepen.io/username/pen/bGoRZYY-512.jpg" alt="project image">
+          <p>Product Landing Page</p>
+        </a>
+      </div>
+    </main>
+    <section id="contact">
+      <h3>If you want to contact me, you can do it in some of this ways:</h3>
+      <div class="contact-links">
+        <a class="contact-button" id="profile-link" href="https://www.freecodecamp.org/Dekkvar" target="_blank">
+          <button class="btn"><i class="fa fa-free-code-camp"></i></button>
+          <div id="hide">Free Code Camp</div>
+        </a>
+        <a class="contact-button" href="mailto:aitorcf@gmail.com">
+          <button class="btn"><i class="fa fa-envelope-o"></i></button>
+          <div id="hide">Email</div>
+        </a>
+      </div>
+    </section>
   </body>
 </html>
