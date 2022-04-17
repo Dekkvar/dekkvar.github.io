@@ -1,0 +1,23 @@
+.presentation-container {
+  background-color: inherit;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.presentation-text {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  font-size: 6vw;
+  font-weight: bolder;
+  
+  background-image: url(../images/space.jpg);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+
+  color: transparent;  
+}

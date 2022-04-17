@@ -1,0 +1,23 @@
+.button-container {
+  flex: 1 1;
+  min-width: 120px;
+  height: 100px;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: large;
+  font-weight: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-container:hover {
+  border: 1px solid #FF8C32;
+  color: #FF8C32
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    height: 50px;
+  }
+}
